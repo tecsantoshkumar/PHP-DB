@@ -4,15 +4,15 @@ Fetch and update the data from the MySQL database in PHP. This example demonstra
 
 Here, we will show you simple and easy way on how to fetch and update data from mysql database in php.
 
-.Connect to MySQL database
+*Connect to MySQL database
 
-.Fetch data from the database
+*Fetch data from the database
 
-.Create data from database
+*Create data from database
 
-.Update data from database
+*Update data from database
 
-.Delete data from database
+*Delete data from database
 
 # 1. Connect to MySQL database
 
