@@ -19,20 +19,14 @@ Here, we will show you simple and easy way on how to fetch and update data from 
 In this step, you will create a file name db.php and update the below code into your file.
 
 The below code is used to create a MySQL database connection in PHP. When we fetch, insert, update or delete data from MySQL database, there we will include this file:
-
+``` PHP
 <?php
-
 $conn = mysqli_connect("127.0.0.1", "root", "", "db_connect") or die ("Connection Failed" . $conn->connect_error);
-
 if ($conn) {
-
      echo "Connection Successfully";
-
 }
-
  $conn->close();
-
-?>
+?>```
 # 2. Fetch data from the databasee
 
 # 3. Create data from database
