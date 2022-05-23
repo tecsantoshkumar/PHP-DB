@@ -41,4 +41,4 @@ if ($conn) {
 
 # 5. Delete data from database
 
-[Github](https://www.github.com/tecsantoshkumar "Github Tec Santosh Kumar")
+[Github Tec Santosh Kumar](https://www.github.com/tecsantoshkumar "Github Tec Santosh Kumar")
