@@ -26,7 +26,8 @@ if ($conn) {
      echo "Connection Successfully";
 }
  $conn->close();
-?>```
+?>
+```
 # 2. Fetch data from the databasee
 
 # 3. Create data from database
