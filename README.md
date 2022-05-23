@@ -4,6 +4,12 @@ Fetch and update the data from the MySQL database in PHP. This example demonstra
 
 Here, we will show you simple and easy way on how to fetch and update data from mysql database in php.
 
+# MySQLi Installation
+For Linux and Windows: The MySQLi extension is automatically installed in most cases, when php5 mysql package is installed.
+
+For installation details, go to: http://php.net/manual/en/mysqli.installation.php
+
+
 * Connect to MySQL database
 
 * Fetch data from the database
@@ -16,9 +22,6 @@ Here, we will show you simple and easy way on how to fetch and update data from 
 
 # 1. Connect to MySQL database
 
-In this step, you will create a file name db.php and update the below code into your file.
-
-The below code is used to create a MySQL database connection in PHP. When we fetch, insert, update or delete data from MySQL database, there we will include this file:
 ``` PHP
 <?php
 $conn = mysqli_connect("127.0.0.1", "root", "", "db_connect") or die ("Connection Failed" . $conn->connect_error);
