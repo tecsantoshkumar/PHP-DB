@@ -31,7 +31,7 @@ if ($conn) {
  $conn->close();
 ?>
 ```
-# 2. Fetch data from the databasee
+# 2. Fetch data from the database
 ```
 <?php
 require_once('db.php');
